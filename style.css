@@ -188,7 +188,7 @@ img {
 
 /* Hero Section */
 #hero {
-    height: 90vh; 
+    height: 80vh; 
     /* Full viewport height */
    
     display: flex;
@@ -802,3 +802,10 @@ img {
         font-size: 1.2em;
     }
 }
+
+@media (max-width: 320px){
+    #hero{
+        height: 50vh;
+    }
+}
+
